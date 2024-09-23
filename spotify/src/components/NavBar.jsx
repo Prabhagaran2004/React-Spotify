@@ -9,6 +9,16 @@ const NavBar = () => {
                 <img className='w-8 bg-black p-2 rounded-2xl cursor-pointer' src={assets.arrow_left} alt="" />
                 <img className='w-8 bg-black p-2 rounded-2xl cursor-pointer' src={assets.arrow_right} alt="" />
             </div>
+            <div className='flex items-center gap-4'>
+              <p className='bg-white text-black text-[15px] px-4 py-1 rounded-2xl cursor-pointer hidden md:block'>Explore Premium</p>
+              <p className='bg-black rounded-2xl py-1 px-3 text-[15px] cursor-pointer'>Install App</p>
+              <p className='bg-blue-500 text-black w-7 h-7 rounded-full flex items-center justify-center '>P</p>
+            </div>
+        </div>
+        <div className='flex items-center gap-2 mt-4'>
+            <p className='bg-white text-black rounded-2xl px-4 py-1 cursor-pointer'>All</p>
+            <p className='bg-black text-white px-4 py-1 rounded-full cursor-pointer'>Music</p>
+            <p className='bg-black text-white px-4 py-1 rounded-full cursor-pointer'>Podcast</p>
         </div>
     </>
   )
